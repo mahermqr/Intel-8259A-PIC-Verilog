@@ -45,6 +45,7 @@ def main():
     for tb in tb_files:
         tb_name = os.path.splitext(os.path.basename(tb))[0]
         vvp_file = f"sim/{tb_name}.vvp"
+        vcd_file = f"{tb_name}.vcd"
 
         # Determine required source files
         if "single" in tb_name or "cascade" in tb_name:
@@ -76,6 +77,12 @@ def main():
             print(f"[{'FAIL':^6}] {tb_name:<30} Test Assertion Failure")
             print(out)
             failed_count += 1
+
+        # Clean up temporary build/trace files
+        if os.path.exists(vvp_file):
+            os.remove(vvp_file)
+        if os.path.exists(vcd_file):
+            os.remove(vcd_file)
 
     print("=" * 65)
     print(f"Test Summary: Total={len(tb_files)} | Passed={passed_count} | Failed={failed_count}")
