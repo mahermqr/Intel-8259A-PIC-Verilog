@@ -1,6 +1,9 @@
 // ============================================================================
 // Module: IRR (Interrupt Request Register)
-// Project: Intel 8259A Programmable Interrupt Controller
+// Course: EC482 - Microprocessor Systems I
+// Instructor: Dr. Mohamed M. Eljhani
+// Authors: Maher Abdulnaser Alqadhi (ID: 2210249576)
+//          Mohammed Nasreddin Khalaf (ID: 2210246039)
 // Description: Stores interrupt requests from 8 input lines (IR7-IR0).
 //              Supports Edge-Triggered (0->1 transition) and Level-Triggered modes.
 // ============================================================================

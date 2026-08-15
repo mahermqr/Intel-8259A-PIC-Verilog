@@ -1,6 +1,9 @@
 // ============================================================================
 // Module: RWLogic (Read/Write Logic & Command Register Interface)
-// Project: Intel 8259A Programmable Interrupt Controller
+// Course: EC482 - Microprocessor Systems I
+// Instructor: Dr. Mohamed M. Eljhani
+// Authors: Maher Abdulnaser Alqadhi (ID: 2210249576)
+//          Mohammed Nasreddin Khalaf (ID: 2210246039)
 // Description: Decodes ICW1-ICW4 initialization sequence and OCW1-OCW3 operation commands.
 // ============================================================================
 

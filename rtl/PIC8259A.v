@@ -1,6 +1,9 @@
 // ============================================================================
 // Module: PIC8259A (Top-Level Programmable Interrupt Controller)
-// Project: Intel 8259A Programmable Interrupt Controller
+// Course: EC482 - Microprocessor Systems I
+// Instructor: Dr. Mohamed M. Eljhani
+// Authors: Maher Abdulnaser Alqadhi (ID: 2210249576)
+//          Mohammed Nasreddin Khalaf (ID: 2210246039)
 // Description: Fully integrated 8259A PIC combining RWLogic, IRR, ISR,
 //              PriorityResolver, and CascadeModule.
 // ============================================================================

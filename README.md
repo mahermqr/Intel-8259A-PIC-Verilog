@@ -24,6 +24,21 @@ A robust, synthesizable, cycle-accurate Verilog-2005 implementation of the class
 
 ---
 
+## 👥 Authors & Academic Attribution
+
+This project was designed and implemented for **EC482: Microprocessor Systems I** under the supervision of **Dr. Mohamed M. Eljhani**.
+
+### Project Team
+- **Maher Abdulnaser Alqadhi** — ID: `2210249576`
+- **Mohammed Nasreddin Khalaf** — ID: `2210246039`
+
+### Course & Instructor Information
+- **Course**: EC482 - Microprocessor Systems I
+- **Instructor**: Dr. Mohamed M. Eljhani
+- **Project Title**: *Design and Implementation of a Cascadable Programmable Interrupt Controller (PIC8259A) Using Verilog HDL*
+
+---
+
 ## 🏗️ Architecture & Block Diagram
 
 ```mermaid

@@ -1,6 +1,9 @@
 // ============================================================================
 // Module: ISR (In-Service Register)
-// Project: Intel 8259A Programmable Interrupt Controller
+// Course: EC482 - Microprocessor Systems I
+// Instructor: Dr. Mohamed M. Eljhani
+// Authors: Maher Abdulnaser Alqadhi (ID: 2210249576)
+//          Mohammed Nasreddin Khalaf (ID: 2210246039)
 // Description: Stores interrupt requests currently being serviced.
 //              Calculates vector address and clears bits upon EOI command.
 // ============================================================================

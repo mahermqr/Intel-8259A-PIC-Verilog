@@ -1,6 +1,9 @@
 // ============================================================================
 // Module: PriorityResolver
-// Project: Intel 8259A Programmable Interrupt Controller
+// Course: EC482 - Microprocessor Systems I
+// Instructor: Dr. Mohamed M. Eljhani
+// Authors: Maher Abdulnaser Alqadhi (ID: 2210249576)
+//          Mohammed Nasreddin Khalaf (ID: 2210246039)
 // Description: Determines the highest priority pending interrupt.
 //              Supports Fully Nested Mode (IR0 > IR1 > ... > IR7)
 //              and Auto-Rotating Priority Mode.
