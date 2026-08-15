@@ -1,0 +1,17 @@
+# Simulation Artifacts
+*.vvp
+*.vcd
+*.log
+sim/*.vvp
+sim/*.vcd
+sim/*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / OS Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
